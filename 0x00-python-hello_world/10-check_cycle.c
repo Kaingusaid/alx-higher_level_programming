@@ -11,9 +11,7 @@
 int check_cycle(listint_t *list)
 {
 	listint_t *currentS = list;
-	listint_t *currentF = list;
-
-	while (currentS && currentF && currentF->next)
+	listi (currentS && currentF && currentF->next)
 	{
 		currentS = currentS->next;
 		currentF = currentF->next->next;
